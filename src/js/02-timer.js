@@ -3,6 +3,7 @@ import flatpickr from "flatpickr";
 // Додатковий імпорт стилів
 import "flatpickr/dist/flatpickr.min.css";
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
+require('flatpickr/dist/themes/material_red.css');
 
 const refs = {
     input: document.querySelector('#datetime-picker'),
